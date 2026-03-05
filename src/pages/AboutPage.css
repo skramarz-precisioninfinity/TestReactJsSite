@@ -1,0 +1,81 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.about-container h1 {
+  font-size: 2.2rem;
+  color: #282c34;
+  margin-bottom: 1rem;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.about-tech {
+  margin-bottom: 2.5rem;
+}
+
+.about-tech h2,
+.about-team h2 {
+  font-size: 1.5rem;
+  color: #282c34;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 0.3rem;
+  display: inline-block;
+}
+
+.about-tech ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.about-tech li {
+  background: #f0f8ff;
+  border: 1px solid #cce5ff;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.team-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.team-avatar {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.team-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #282c34;
+}
+
+.team-card p {
+  font-size: 0.85rem;
+  color: #888;
+}
